@@ -1,13 +1,15 @@
 {
     "name": "framer-shared-colors-cli",
     "version": "1.0.0",
-    "description": "A tool that lets you manipulate shared colors in a Framer project",
+    "description": "A tool that lets you manage shared colors in a Framer project",
     "main": "index.js",
-    "bin": "index.js",
+    "bin": {
+        "framer-shared-colors": "./index.js"
+    },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "",
+    "author": "Tisho Georgiev",
     "license": "ISC",
     "dependencies": {
         "chalk": "^2.4.2",
