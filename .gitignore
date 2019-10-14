@@ -2,6 +2,7 @@
 .DS_Store
 Icon\r
 
+.vscode
 .cache
 yarn-error.log
 build
