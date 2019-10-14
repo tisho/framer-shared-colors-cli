@@ -1,0 +1,11 @@
+# General
+.DS_Store
+Icon\r
+
+.cache
+yarn-error.log
+build
+dist
+node_modules
+.npmrc
+.yarnrc

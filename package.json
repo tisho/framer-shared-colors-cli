@@ -1,0 +1,19 @@
+{
+    "name": "framer-shared-colors-cli",
+    "version": "1.0.0",
+    "description": "A tool that lets you manipulate shared colors in a Framer project",
+    "main": "index.js",
+    "bin": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "chalk": "^2.4.2",
+        "color": "^3.1.2",
+        "fs-extra": "^8.1.0",
+        "minimist": "^1.2.0",
+        "uuid": "^3.3.3"
+    }
+}
