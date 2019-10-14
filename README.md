@@ -2,6 +2,12 @@
 
 A simple utility that lets you merge or replace color tokens in a Framer project with ones that you define in your own JSON file.
 
+## Installation
+
+```
+$ yarn global add https://github.com/tisho/framer-shared-colors-cli.git
+```
+
 ## Usage
 
 #### Replacing Color Tokens
@@ -27,7 +33,7 @@ No tokens will be deleted.
 
 The input file (`colors.json`) is a simple map of key => value pairs:
 
-```json
+```
 {
     "primary": "rgb(0, 0, 0)",
     "accent": "rgb(255, 0, 0)",
